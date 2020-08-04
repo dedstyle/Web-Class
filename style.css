@@ -1,0 +1,62 @@
+/* div              : wrapping for content
+   text             : content
+   width or height  : range for content t-r-b-l
+   padding          : box range for content t-r-b-l 
+   border           : line for padding
+   margin           : range between line border or padding t-r-b-l
+*/
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-image: url("https://raha-am.co.id/image/Prod/Diamond.png");
+    background-size: cover;
+    font: my;
+}
+
+.content1 {
+    width: 300px;
+    height: 400px;
+
+    padding: 20px 30px 40px 50px;
+
+    border: solid 2px blue;
+
+    margin: 10px 20px 30px 40px;
+}
+
+@font-face {
+    font-family:'myFont' ;
+    src: url('./roboto/Roboto-Light.ttf');
+}
+
+content2 {
+    margin-top: 20px;
+}
+
+.list-menu {
+    list-style: none;
+    float: right;
+    margin: 10px 20px;
+}
+
+.list-menu li {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    color: white;
+}   
+
+.list-menu li:hover {
+    background-color: coral;
+    cursor:pointer;
+}
+
+.Position {
+    float: right;
+}
